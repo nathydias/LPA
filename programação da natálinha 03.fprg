@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 10:02:32 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjIzOzIwMjQtMDItMDY7IjA5OjExOjI2ICI7MjI1MA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjIzOzIwMjQtMDItMDY7IjEwOjAyOjMyICI7MTsyMzQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nomeUsuario" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual e o seu nome&quot;" newline="True"/>
+            <input variable="nomeUsuario"/>
+            <output expression="&quot;qual &#233; a sua idade&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;o nome de usuario &#233;: &quot; &amp; nomeUsuario" newline="True"/>
+            <output expression="&quot;Sua idade &#233; de: &quot; &amp; idade &amp; &quot; anos. &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
